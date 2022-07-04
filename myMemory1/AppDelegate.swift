@@ -6,9 +6,12 @@
 //
 
 import UIKit
+import CoreData
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var memolist = [MemoData]() //메모 데이터를 저장할 배열 변수
 
 
 
